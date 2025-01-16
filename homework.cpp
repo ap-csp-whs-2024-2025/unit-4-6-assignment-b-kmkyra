@@ -11,10 +11,27 @@
 #include <string>    // std::string, std::getline
 #include <vector>    // std::vector
 
+//int isPrime(int x)
+//{
+
+//}
+
+int averageList(std::vector<double> list)
+{
+    int index = 0;
+    double sum;
+    while(index <= list.size()) 
+    {
+      sum = list[index] + list[index+1];
+    }
+    return sum/2;
+}
+
 int main()
 {
     // Complete your homework here
-
+    std::vector<double> foo = {1, 2, 3, 4, 5};
+    averageList(foo);
     
     return 0;
 }

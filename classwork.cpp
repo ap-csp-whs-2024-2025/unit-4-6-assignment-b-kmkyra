@@ -17,10 +17,19 @@ double midpoint(double a, double b)
     return (a + b) / 2.0;
 }
 
+int square(int n)
+{
+    return n*n;
+}
+
 int main()
 {
     // You can follow along with any code in class here
-
+    std::cout << "Give number: ";
+    int x;
+    std::cin >> x;
+    
+    std::cout << "The square of " << x << " is " square(x) << std::endl;
     
     return 0;
 }
